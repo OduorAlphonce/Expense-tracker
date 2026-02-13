@@ -39,7 +39,7 @@ func addExpense() {
 	}
 
 	//read input ammount as string
-	money := readInput("Enter amount: 0")
+	money := readInput("Enter amount: ")
 
 	//convert string to float64
 	amount, err := strconv.ParseFloat(money, 64)
