@@ -1,0 +1,8 @@
+Build a command line expense tracker that allows a user to :
+ 1 Add an expense(name, amount and category)
+ 2 View all expenses
+ 3 View total amount spent
+ 4 Exit the program
+
+instruction:
+the program must keep running until the user chooses to exit and must handle invalid input without crashing.
