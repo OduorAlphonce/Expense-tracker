@@ -46,7 +46,7 @@ func addExpense() {
 
 	//validate the amount
 	if err != nil || amount <= 0 {
-		fmt.Println("Amount must positive.")
+		fmt.Println("Amount must be positive.")
 		return
 	}
 
@@ -78,7 +78,7 @@ func viewAllExpenses() {
 
 	//use range loop to loop through the slice and recorde expense
 	for _, e := range expenses {
-		fmt.Printf("%s, .%.2f, %s", e.Name, e.Amount, e.Category)
+		fmt.Printf("%s, %.2f, %s", e.Name, e.Amount, e.Category)
 	}
 }
 
